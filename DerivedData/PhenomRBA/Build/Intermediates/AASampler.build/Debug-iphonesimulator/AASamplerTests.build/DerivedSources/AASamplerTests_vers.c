@@ -1,0 +1,1 @@
+ const unsigned char AASamplerTestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:AASamplerTests  PROJECT:AASampler-1" "\n"; const double AASamplerTestsVersionNumber __attribute__ ((used)) = (double)1.;

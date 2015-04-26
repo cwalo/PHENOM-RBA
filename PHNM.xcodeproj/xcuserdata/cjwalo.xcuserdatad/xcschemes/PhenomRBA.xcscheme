@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D7F9D137199FE697003CD7D6"
-               BuildableName = "PhenomRBA.app"
+               BuildableName = "PHNM.app"
                BlueprintName = "PhenomRBA"
-               ReferencedContainer = "container:PhenomRBA.xcodeproj">
+               ReferencedContainer = "container:PHNM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "D7F9D158199FE697003CD7D6"
                BuildableName = "PhenomRBATests.xctest"
                BlueprintName = "PhenomRBATests"
-               ReferencedContainer = "container:PhenomRBA.xcodeproj">
+               ReferencedContainer = "container:PHNM.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D7F9D137199FE697003CD7D6"
-            BuildableName = "PhenomRBA.app"
+            BuildableName = "PHNM.app"
             BlueprintName = "PhenomRBA"
-            ReferencedContainer = "container:PhenomRBA.xcodeproj">
+            ReferencedContainer = "container:PHNM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D7F9D137199FE697003CD7D6"
-            BuildableName = "PhenomRBA.app"
+            BuildableName = "PHNM.app"
             BlueprintName = "PhenomRBA"
-            ReferencedContainer = "container:PhenomRBA.xcodeproj">
+            ReferencedContainer = "container:PHNM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D7F9D137199FE697003CD7D6"
-            BuildableName = "PhenomRBA.app"
+            BuildableName = "PHNM.app"
             BlueprintName = "PhenomRBA"
-            ReferencedContainer = "container:PhenomRBA.xcodeproj">
+            ReferencedContainer = "container:PHNM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

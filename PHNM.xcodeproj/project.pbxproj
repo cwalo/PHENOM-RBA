@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7028A3619F9E27200A9659A /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A2F19F9E27200A9659A /* Crash.wav */; };
+		D7028A3719F9E27200A9659A /* MudOrChocolate.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3019F9E27200A9659A /* MudOrChocolate.wav */; };
+		D7028A3819F9E27200A9659A /* SlowDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3119F9E27200A9659A /* SlowDown.wav */; };
+		D7028A3919F9E27200A9659A /* Coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3219F9E27200A9659A /* Coin.wav */; };
+		D7028A3A19F9E27200A9659A /* Schwing.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3319F9E27200A9659A /* Schwing.wav */; };
+		D7028A3B19F9E27200A9659A /* SadBone.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3419F9E27200A9659A /* SadBone.wav */; };
+		D7028A3C19F9E27200A9659A /* Fart.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3519F9E27200A9659A /* Fart.wav */; };
+		D73A8DAA199FEDFC006D2839 /* Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D73A8D9A199FEDFC006D2839 /* Horn.wav */; };
+		D756B08D19A0000A00138314 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D756B08C19A0000A00138314 /* AudioToolbox.framework */; };
+		D756B08F19A0017C00138314 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D756B08E19A0017C00138314 /* CoreAudio.framework */; };
+		D756B09419A009AB00138314 /* TurnDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D756B09119A009AB00138314 /* TurnDown.wav */; };
+		D756B09519A009AB00138314 /* GetAss.wav in Resources */ = {isa = PBXBuildFile; fileRef = D756B09219A009AB00138314 /* GetAss.wav */; };
+		D756B09719A0118C00138314 /* WaveRace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D756B09619A0118C00138314 /* WaveRace.wav */; };
+		D776BE1419BA8112005A5ABF /* Cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = D776BE1319BA8112005A5ABF /* Cowbell.wav */; };
+		D7F7CBD019A2C3B100B5C390 /* MyMan.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7F7CBCF19A2C3B100B5C390 /* MyMan.wav */; };
+		D7F7CBD219A2C3BB00B5C390 /* NiceJob.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7F7CBD119A2C3BB00B5C390 /* NiceJob.wav */; };
+		D7F7CBD419A2C6D300B5C390 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */; };
+		D7F7CBD919A303FA00B5C390 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */; };
 		D7F9D13C199FE697003CD7D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9D13B199FE697003CD7D6 /* Foundation.framework */; };
 		D7F9D13E199FE697003CD7D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9D13D199FE697003CD7D6 /* CoreGraphics.framework */; };
 		D7F9D140199FE697003CD7D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9D13F199FE697003CD7D6 /* UIKit.framework */; };
@@ -34,7 +52,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D7F9D138199FE697003CD7D6 /* PhenomRBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhenomRBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7028A2F19F9E27200A9659A /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
+		D7028A3019F9E27200A9659A /* MudOrChocolate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MudOrChocolate.wav; sourceTree = "<group>"; };
+		D7028A3119F9E27200A9659A /* SlowDown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SlowDown.wav; sourceTree = "<group>"; };
+		D7028A3219F9E27200A9659A /* Coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Coin.wav; sourceTree = "<group>"; };
+		D7028A3319F9E27200A9659A /* Schwing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Schwing.wav; sourceTree = "<group>"; };
+		D7028A3419F9E27200A9659A /* SadBone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SadBone.wav; sourceTree = "<group>"; };
+		D7028A3519F9E27200A9659A /* Fart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fart.wav; sourceTree = "<group>"; };
+		D73A8D9A199FEDFC006D2839 /* Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Horn.wav; sourceTree = "<group>"; };
+		D756B08C19A0000A00138314 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D756B08E19A0017C00138314 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D756B09119A009AB00138314 /* TurnDown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TurnDown.wav; sourceTree = "<group>"; };
+		D756B09219A009AB00138314 /* GetAss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GetAss.wav; sourceTree = "<group>"; };
+		D756B09619A0118C00138314 /* WaveRace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WaveRace.wav; sourceTree = "<group>"; };
+		D776BE1319BA8112005A5ABF /* Cowbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cowbell.wav; sourceTree = "<group>"; };
+		D7F7CBCF19A2C3B100B5C390 /* MyMan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MyMan.wav; sourceTree = "<group>"; };
+		D7F7CBD119A2C3BB00B5C390 /* NiceJob.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NiceJob.wav; sourceTree = "<group>"; };
+		D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D7F9D138199FE697003CD7D6 /* PHNM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHNM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9D13B199FE697003CD7D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7F9D13D199FE697003CD7D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D7F9D13F199FE697003CD7D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -60,6 +96,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F7CBD919A303FA00B5C390 /* CoreMotion.framework in Frameworks */,
+				D7F7CBD419A2C6D300B5C390 /* QuartzCore.framework in Frameworks */,
+				D756B08F19A0017C00138314 /* CoreAudio.framework in Frameworks */,
+				D756B08D19A0000A00138314 /* AudioToolbox.framework in Frameworks */,
 				D7F9D13E199FE697003CD7D6 /* CoreGraphics.framework in Frameworks */,
 				D7F9D140199FE697003CD7D6 /* UIKit.framework in Frameworks */,
 				D7F9D13C199FE697003CD7D6 /* Foundation.framework in Frameworks */,
@@ -79,6 +119,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D73A8D92199FEDFC006D2839 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				D7028A2F19F9E27200A9659A /* Crash.wav */,
+				D7028A3019F9E27200A9659A /* MudOrChocolate.wav */,
+				D7028A3119F9E27200A9659A /* SlowDown.wav */,
+				D7028A3219F9E27200A9659A /* Coin.wav */,
+				D7028A3319F9E27200A9659A /* Schwing.wav */,
+				D7028A3419F9E27200A9659A /* SadBone.wav */,
+				D7028A3519F9E27200A9659A /* Fart.wav */,
+				D776BE1319BA8112005A5ABF /* Cowbell.wav */,
+				D7F7CBD119A2C3BB00B5C390 /* NiceJob.wav */,
+				D7F7CBCF19A2C3B100B5C390 /* MyMan.wav */,
+				D756B09619A0118C00138314 /* WaveRace.wav */,
+				D756B09119A009AB00138314 /* TurnDown.wav */,
+				D756B09219A009AB00138314 /* GetAss.wav */,
+				D73A8D9A199FEDFC006D2839 /* Horn.wav */,
+			);
+			name = Samples;
+			path = TrapperSelections;
+			sourceTree = "<group>";
+		};
 		D7F9D12F199FE697003CD7D6 = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +154,7 @@
 		D7F9D139199FE697003CD7D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9D138199FE697003CD7D6 /* PhenomRBA.app */,
+				D7F9D138199FE697003CD7D6 /* PHNM.app */,
 				D7F9D159199FE697003CD7D6 /* PhenomRBATests.xctest */,
 			);
 			name = Products;
@@ -101,6 +163,10 @@
 		D7F9D13A199FE697003CD7D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */,
+				D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */,
+				D756B08E19A0017C00138314 /* CoreAudio.framework */,
+				D756B08C19A0000A00138314 /* AudioToolbox.framework */,
 				D7F9D13B199FE697003CD7D6 /* Foundation.framework */,
 				D7F9D13D199FE697003CD7D6 /* CoreGraphics.framework */,
 				D7F9D13F199FE697003CD7D6 /* UIKit.framework */,
@@ -126,6 +192,7 @@
 		D7F9D142199FE697003CD7D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D73A8D92199FEDFC006D2839 /* Samples */,
 				D7F9D143199FE697003CD7D6 /* PhenomRBA-Info.plist */,
 				D7F9D144199FE697003CD7D6 /* InfoPlist.strings */,
 				D7F9D147199FE697003CD7D6 /* main.m */,
@@ -169,7 +236,7 @@
 			);
 			name = PhenomRBA;
 			productName = PhenomRBA;
-			productReference = D7F9D138199FE697003CD7D6 /* PhenomRBA.app */;
+			productReference = D7F9D138199FE697003CD7D6 /* PHNM.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D7F9D158199FE697003CD7D6 /* PhenomRBATests */ = {
@@ -204,7 +271,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D7F9D133199FE697003CD7D6 /* Build configuration list for PBXProject "PhenomRBA" */;
+			buildConfigurationList = D7F9D133199FE697003CD7D6 /* Build configuration list for PBXProject "PHNM" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,9 +295,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73A8DAA199FEDFC006D2839 /* Horn.wav in Resources */,
+				D7028A3A19F9E27200A9659A /* Schwing.wav in Resources */,
+				D756B09519A009AB00138314 /* GetAss.wav in Resources */,
+				D7028A3B19F9E27200A9659A /* SadBone.wav in Resources */,
 				D7F9D154199FE697003CD7D6 /* Images.xcassets in Resources */,
+				D7028A3619F9E27200A9659A /* Crash.wav in Resources */,
+				D776BE1419BA8112005A5ABF /* Cowbell.wav in Resources */,
+				D7028A3919F9E27200A9659A /* Coin.wav in Resources */,
+				D7028A3819F9E27200A9659A /* SlowDown.wav in Resources */,
+				D756B09419A009AB00138314 /* TurnDown.wav in Resources */,
 				D7F9D146199FE697003CD7D6 /* InfoPlist.strings in Resources */,
+				D7028A3719F9E27200A9659A /* MudOrChocolate.wav in Resources */,
+				D7028A3C19F9E27200A9659A /* Fart.wav in Resources */,
+				D756B09719A0118C00138314 /* WaveRace.wav in Resources */,
 				D7F9D14F199FE697003CD7D6 /* Main.storyboard in Resources */,
+				D7F7CBD219A2C3BB00B5C390 /* NiceJob.wav in Resources */,
+				D7F7CBD019A2C3B100B5C390 /* MyMan.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +398,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Corey Walo (42423EPDZ8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Corey Walo (42423EPDZ8)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -333,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -355,7 +437,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Corey Walo (42423EPDZ8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Corey Walo (42423EPDZ8)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -365,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -379,7 +462,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhenomRBA/PhenomRBA-Prefix.pch";
 				INFOPLIST_FILE = "PhenomRBA/PhenomRBA-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PHNM;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +475,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhenomRBA/PhenomRBA-Prefix.pch";
 				INFOPLIST_FILE = "PhenomRBA/PhenomRBA-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PHNM;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,7 +496,8 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "PhenomRBATests/PhenomRBATests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = PhenomRBATests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,7 +515,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhenomRBA/PhenomRBA-Prefix.pch";
 				INFOPLIST_FILE = "PhenomRBATests/PhenomRBATests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PhenomRBATests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +524,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7F9D133199FE697003CD7D6 /* Build configuration list for PBXProject "PhenomRBA" */ = {
+		D7F9D133199FE697003CD7D6 /* Build configuration list for PBXProject "PHNM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7F9D168199FE698003CD7D6 /* Debug */,
@@ -456,6 +540,7 @@
 				D7F9D16C199FE698003CD7D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7F9D16D199FE698003CD7D6 /* Build configuration list for PBXNativeTarget "PhenomRBATests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +549,7 @@
 				D7F9D16F199FE698003CD7D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

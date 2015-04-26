@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PhenomRBA.xcodeproj">
+      location = "self:PHNM.xcodeproj">
    </FileRef>
 </Workspace>
