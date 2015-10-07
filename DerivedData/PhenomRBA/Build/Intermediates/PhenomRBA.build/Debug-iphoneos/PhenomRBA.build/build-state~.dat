@@ -1,658 +1,0 @@
-TPhenomRBA
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist
-cProcessPCH /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.pch PhenomRBA/PhenomRBA-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.o /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.o /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.o /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.o /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA normal arm64
-cCpResource PhenomRBA/TrapperSelections/Horn.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Horn.wav
-cCpResource PhenomRBA/TrapperSelections/GetAss.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/GetAss.wav
-cCpResource PhenomRBA/TrapperSelections/Cowbell.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Cowbell.wav
-cCpResource PhenomRBA/TrapperSelections/TurnDown.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/TurnDown.wav
-cCopyStringsFile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/en.lproj/InfoPlist.strings PhenomRBA/en.lproj/InfoPlist.strings
-cCpResource PhenomRBA/TrapperSelections/WaveRace.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/WaveRace.wav
-cCompileStoryboard /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Base.lproj/Main.storyboard
-cCpResource PhenomRBA/TrapperSelections/NiceJob.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/NiceJob.wav
-cCpResource PhenomRBA/TrapperSelections/MyMan.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/MyMan.wav
-cCompileAssetCatalog /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Images.xcassets
-cProcessInfoPlistFile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Info.plist /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Info.plist
-cGenerateDSYMFile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA
-cProcessProductPackaging /Users/cjwalo/Library/MobileDevice/Provisioning\ Profiles/daa05870-6110-481b-be80-38ce8f40b0be.mobileprovision /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision
-cTouch /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent
-cCodeSign /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
-c000000005347555F0000000000000132
-t1397183839
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-c000000005321720E0000000000000094
-t1394700814
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-c000000005321720E0000000000000096
-t1394700814
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c000000005321720E000000000000036B
-t1394700814
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000053217210000000000000019E
-t1394700816
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c00000000532172120000000000CF7800
-t1394700818
-s13596672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c000000005321721200000000001A2540
-t1394700818
-s1713472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000005347540700000000004D7BC0
-t1397183495
-s5077952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
-c0000000053217215000000000027C770
-t1394700821
-s2606960
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000532172160000000000A90C10
-t1394700822
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000532172190000000000649DB0
-t1394700825
-s6593968
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000005321721B0000000002759920
-t1394700827
-s41261344
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c000000005321726D0000000000000ADC
-t1394700909
-s2780
-
-N/Users/cjwalo/Library/MobileDevice/Provisioning Profiles/daa05870-6110-481b-be80-38ce8f40b0be.mobileprovision
-c0000000053EFC6880000000000003B7F
-t1408222856
-s15231
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.o
-t1409960491
-s10432
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.o
-t1409960491
-s71012
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/PhenomRBA.LinkFileList
-c00000000540A4A28000000000000028E
-t1409960488
-s654
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.o
-t1409960492
-s73376
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.o
-t1409960491
-s4192
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent
-t1409960494
-s503
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/assetcatalog_dependencies.txt
-t1409960494
-s433
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/assetcatalog_generated_info.plist
-t1409960494
-s525
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.pch
-t1409960490
-s117008
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app
-t1409960494
-s612
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM
-t2
-s0
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Base.lproj/Main.storyboardc
-t1409960494
-s170
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Cowbell.wav
-t1409960493
-s5657298
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/GetAss.wav
-t1409960493
-s187444
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Horn.wav
-t1409960493
-s104122
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Info.plist
-t1409960494
-s1266
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/MyMan.wav
-t1409960493
-s167384
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/NiceJob.wav
-t1409960493
-s438412
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA
-t1409960493
-s61768
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PkgInfo
-t1409960494
-s8
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist
-t1409960488
-s150
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/TurnDown.wav
-t1409960493
-s841608
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/WaveRace.wav
-t1409960493
-s841608
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision
-t1409960494
-s15231
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/en.lproj/InfoPlist.strings
-t1409960493
-s42
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m
-c0000000053F2C95B00000000000000BF
-t1408420187
-s191
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m
-c0000000053F2C52C00000000000009AC
-t1408419116
-s2476
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Base.lproj/Main.storyboard
-c0000000053F3C18B0000000000004F6F
-t1408483723
-s20335
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Images.xcassets
-c0000000053EFAF170000000000000088
-t1408216855
-s136
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Info.plist
-c0000000053EFDBC3000000000000049A
-t1408228291
-s1178
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Prefix.pch
-c0000000053EFAF170000000000000158
-t1408216855
-s344
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/Cowbell.wav
-c00000000540A494300000000005652D2
-t1409960259
-s5657298
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/GetAss.wav
-c0000000053EFD1F9000000000002DC34
-t1408225785
-s187444
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/Horn.wav
-c000000004B3A7BFA00000000000196BA
-t1262124026
-s104122
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/MyMan.wav
-c0000000053F287D50000000000028DD8
-t1408403413
-s167384
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/NiceJob.wav
-c0000000053F28761000000000006B08C
-t1408403297
-s438412
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/TurnDown.wav
-c0000000053EFD20700000000000CD788
-t1408225799
-s841608
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/WaveRace.wav
-c0000000053EFD9FF00000000000CD788
-t1408227839
-s841608
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m
-c00000000540A4A190000000000002BDF
-t1409960473
-s11231
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/en.lproj/InfoPlist.strings
-c0000000053EFAF17000000000000002D
-t1408216855
-s45
-
-N/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m
-c0000000053EFAF170000000000000153
-t1408216855
-s339
-
-CBuild AST from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m
-r0
-
-CBuild AST from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m
-r0
-
-CBuild AST from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m
-r0
-
-CBuild AST from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies200848a881bab941^bfb58ba881bab941^---0#1#1#--18"Check dependencies36"3011D049-C3A2-4CD3-9698-3DB8B27F8005-
-
-CCodeSign /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app
-s431653294.987506
-e431653295.375241
-r1
-xCodeSign
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CodeSign DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app74"CodeSign DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app836809af81bab941^521060af81bab941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/0000000000000000^1110"CodeSign DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Corey Walo (42423EPDZ8)" and provisioning profile "iOS Team Provisioning Profile: *" (daa05870-6110-481b-be80-38ce8f40b0be)    /usr/bin/codesign --force --sign 266FA259168DEF23CD2F1DF309C15A2627425917 --resource-rules=/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist --entitlements /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"AB3CF216-EE22-48FD-AC04-CAB4977E9017-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCompileAssetCatalog /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Images.xcassets
-s431653293.204268
-e431653294.785396
-r1
-xCompileAssetCatalog
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Images.xcassets
-o2014-09-05 18:41:34.297 IBCocoaTouchImageCatalogTool[28427:303] CFPreferences: user home directory at file:///Users/cjwalo/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o/* com.apple.actool.compilation-results */
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/LaunchImage-700-568h@2x.png
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Assets.car
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CompileAssetCatalog DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app PhenomRBA/Images.xcassets111"CompileAssetCatalog DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app PhenomRBA/Images.xcassetsb66934ad81bab941^1b10c9ae81bab941^-686"2014-09-05 18:41:34.297 IBCocoaTouchImageCatalogTool[28427:303] CFPreferences: user home directory at file:///Users/cjwalo/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/LaunchImage-700-568h@2x.png/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Assets.car/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@74"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Images.xcassets/0000000000000000^1165"CompileAssetCatalog DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app PhenomRBA/Images.xcassets    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Images.xcassets36"412A48C9-C865-4CC0-91B8-E9F89BEE7ECC-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.o /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s431653290.644728
-e431653291.858669
-r1
-xCompileC
-xDerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.o
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:1: warning: autosynthesized property 'audioResourceURLS' will use synthesized instance variable '_audioResourceURLS', not existing instance variable 'audioResourceURLS' [-Wobjc-autosynthesis-property-ivar-name-match]
-o@implementation AASampler
-o^
-oIn file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:30:38: note: property declared here
-o@property(strong, nonatomic)NSArray *audioResourceURLS;
-o                                     ^
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:23:14: note: instance variable is declared here
-o    NSArray *audioResourceURLS;
-o             ^
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:17: warning: method definition for 'loadAudioURLS:' not found [-Wincomplete-implementation]
-o@implementation AASampler
-o                ^
-oIn file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:36:1: note: method 'loadAudioURLS:' declared here
-o-(BOOL)loadAudioURLS:(int)selectedKit;
-o^
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:17: warning: method definition for 'loadAUFilePlayers' not found [-Wincomplete-implementation]
-o@implementation AASampler
-o                ^
-oIn file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:38:1: note: method 'loadAUFilePlayers' declared here
-o-(void)loadAUFilePlayers;
-o^
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:17: warning: method definition for 'playSample:' not found [-Wincomplete-implementation]
-o@implementation AASampler
-o                ^
-oIn file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:40:1: note: method 'playSample:' declared here
-o-(void)playSample:(id)sender;
-o^
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:17: warning: method definition for 'stopAndClosePlayers' not found [-Wincomplete-implementation]
-o@implementation AASampler
-o                ^
-oIn file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:42:1: note: method 'stopAndClosePlayers' declared here
-o-(void)stopAndClosePlayers;
-o^
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:45:13: warning: unused function 'CheckError' [-Wunused-function]
-ostatic void CheckError(OSStatus error, const char *operation)
-o            ^
-o6 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m221"CompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.o PhenomRBA/AASampler.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfa26a5aa81bab941^24d1dbab81bab941^-2730"/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:1: warning: autosynthesized property 'audioResourceURLS' will use synthesized instance variable '_audioResourceURLS', not existing instance variable 'audioResourceURLS' [-Wobjc-autosynthesis-property-ivar-name-match]@implementation AASampler^In file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:30:38: note: property declared here@property(strong, nonatomic)NSArray *audioResourceURLS;                                     ^/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:23:14: note: instance variable is declared here    NSArray *audioResourceURLS;             ^/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:17: warning: method definition for 'loadAudioURLS:' not found [-Wincomplete-implementation]@implementation AASampler                ^In file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:36:1: note: method 'loadAudioURLS:' declared here-(BOOL)loadAudioURLS:(int)selectedKit;^/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:17: warning: method definition for 'loadAUFilePlayers' not found [-Wincomplete-implementation]@implementation AASampler                ^In file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:38:1: note: method 'loadAUFilePlayers' declared here-(void)loadAUFilePlayers;^/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:17: warning: method definition for 'playSample:' not found [-Wincomplete-implementation]@implementation AASampler                ^In file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:40:1: note: method 'playSample:' declared here-(void)playSample:(id)sender;^/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:11:17: warning: method definition for 'stopAndClosePlayers' not found [-Wincomplete-implementation]@implementation AASampler                ^In file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:42:1: note: method 'stopAndClosePlayers' declared here-(void)stopAndClosePlayers;^/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h:45:13: warning: unused function 'CheckError' [-Wunused-function]static void CheckError(OSStatus error, const char *operation)            ^6 warnings generated.6(36%IDEClangDiagnosticActivityLogMessage2@156"Autosynthesized property 'audioResourceURLS' will use synthesized instance variable '_audioResourceURLS', not existing instance variable 'audioResourceURLS'-431653291#18446744073709551615#0#2(2@22"Property declared here-431653291#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h0000000000000000^29#37#29#37#658#0#14"Semantic Issue--2@34"Instance variable is declared here-431653291#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h0000000000000000^22#13#22#13#493#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m0000000000000000^10#0#10#0#159#0#14"Semantic Issue--2@48"Method definition for 'loadAudioURLS:' not found-431653291#18446744073709551615#0#1(2@37"Method 'loadAudioURLS:' declared here-431653291#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h0000000000000000^35#0#35#0#774#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m0000000000000000^10#16#10#16#175#0#14"Semantic Issue--2@51"Method definition for 'loadAUFilePlayers' not found-431653291#18446744073709551615#0#1(2@40"Method 'loadAUFilePlayers' declared here-431653291#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h0000000000000000^37#0#37#0#814#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m0000000000000000^10#16#10#16#175#0#14"Semantic Issue--2@45"Method definition for 'playSample:' not found-431653291#18446744073709551615#0#1(2@34"Method 'playSample:' declared here-431653291#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h0000000000000000^39#0#39#0#841#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m0000000000000000^10#16#10#16#175#0#14"Semantic Issue--2@53"Method definition for 'stopAndClosePlayers' not found-431653291#18446744073709551615#0#1(2@42"Method 'stopAndClosePlayers' declared here-431653291#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h0000000000000000^41#0#41#0#872#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m0000000000000000^10#16#10#16#175#0#14"Semantic Issue--2@28"Unused function 'CheckError'-431653291#18446744073709551615#0#1(2@87"In file included from /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m:9:-431653291#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m0000000000000000^8#8#8#8#144#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.h0000000000000000^44#12#44#12#974#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@69"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m0000000000000000^3840"CompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.o PhenomRBA/AASampler.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-generated-files.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-own-target-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-all-target-headers.hmap -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-project-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources/arm64 -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources -F/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos -include /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch -MMD -MT dependencies -MF /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.d --serialize-diagnostics /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.dia -c /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AASampler.m -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.o36"8EF97693-86CE-4373-B068-3B48C7559055-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.o /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s431653290.645193
-e431653291.970368
-r1
-xCompileC
-xDerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.o
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.h
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m225"CompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.o PhenomRBA/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd849a5aa81bab941^d36af8ab81bab941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m0000000000000000^3852"CompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.o PhenomRBA/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-generated-files.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-own-target-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-all-target-headers.hmap -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-project-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources/arm64 -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources -F/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos -include /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch -MMD -MT dependencies -MF /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.dia -c /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.m -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.o36"759C7AC7-6448-4891-A2CF-CD31B8C65D0E-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.o /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s431653290.644911
-e431653292.195369
-r1
-xCompileC
-xDerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.o
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.h
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.h
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m:109:18: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]
-o    int button = [sender tag];
-o        ~~~~~~   ^~~~~~~~~~~~
-o/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m:249:31: warning: implicit conversion loses integer precision: 'unsigned long long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
-o        rgn.mFramesToPlay = nPackets * player->inputFormat.mFramesPerPacket;
-o                          ~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o2 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m231"CompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.o PhenomRBA/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6f2ba5aa81bab941^6e6e3cac81bab941^-626"/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m:109:18: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]    int button = [sender tag];        ~~~~~~   ^~~~~~~~~~~~/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m:249:31: warning: implicit conversion loses integer precision: 'unsigned long long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]        rgn.mFramesToPlay = nPackets * player->inputFormat.mFramesPerPacket;                          ~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@78"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int'-431653292#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@74"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m0000000000000000^108#17#108#17#4218#0#22"Value Conversion Issue2(3@74"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m0000000000000000^108#17#108#29#4218#11#3@74"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m0000000000000000^108#8#108#14#4209#0#-2@98"Implicit conversion loses integer precision: 'unsigned long long' to 'UInt32' (aka 'unsigned int')-431653292#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@74"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m0000000000000000^248#30#248#30#9125#0#22"Value Conversion Issue2(3@74"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m0000000000000000^248#21#248#68#9116#31#3@74"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m0000000000000000^248#19#248#20#9114#0#-0#0#1#-19%DVTDocumentLocation4@74"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m0000000000000000^3870"CompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.o PhenomRBA/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-generated-files.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-own-target-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-all-target-headers.hmap -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-project-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources/arm64 -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources -F/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos -include /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch -MMD -MT dependencies -MF /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.d --serialize-diagnostics /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.dia -c /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/ViewController.m -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.o36"318CC307-DBB9-4D71-A94B-C516EF3B37BC-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.o /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s431653290.645384
-e431653291.857237
-r1
-xCompileC
-xDerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.o
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m211"CompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.o PhenomRBA/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0d55a5aa81bab941^4774dbab81bab941^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m0000000000000000^3810"CompileC DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.o PhenomRBA/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-generated-files.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-own-target-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-all-target-headers.hmap -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-project-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources/arm64 -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources -F/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos -include /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch -MMD -MT dependencies -MF /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.dia -c /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/main.m -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.o36"F21CB874-5524-434E-91FF-16F50B0C8DE3-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCompileStoryboard /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Base.lproj/Main.storyboard
-s431653293.202378
-e431653294.456826
-r1
-xCompileStoryboard
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Base.lproj/Main.storyboard
-o2014-09-05 18:41:33.973 Interface Builder Cocoa Touch Tool[28424:303] CFPreferences: user home directory at file:///Users/cjwalo/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CompileStoryboard PhenomRBA/Base.lproj/Main.storyboard54"CompileStoryboard PhenomRBA/Base.lproj/Main.storyboardc9e533ad81bab941^f1f274ae81bab941^-231"2014-09-05 18:41:33.973 Interface Builder Cocoa Touch Tool[28424:303] CFPreferences: user home directory at file:///Users/cjwalo/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@84"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Base.lproj/Main.storyboard0000000000000000^814"CompileStoryboard PhenomRBA/Base.lproj/Main.storyboard    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Base.lproj/Main.storyboardc /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/Base.lproj/Main.storyboard36"5521DE2B-C6F8-4363-933E-DC8D19FD9F3E-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCopyStringsFile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/en.lproj/InfoPlist.strings PhenomRBA/en.lproj/InfoPlist.strings
-s431653293.201529
-e431653293.219255
-r1
-xCopyStringsFile
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/en.lproj/InfoPlist.strings
-xPhenomRBA/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy PhenomRBA/en.lproj/InfoPlist.strings145"CopyStringsFile DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/en.lproj/InfoPlist.strings PhenomRBA/en.lproj/InfoPlist.stringsf7ac33ad81bab941^833338ad81bab941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/en.lproj/InfoPlist.strings0000000000000000^628"CopyStringsFile DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/en.lproj/InfoPlist.strings PhenomRBA/en.lproj/InfoPlist.strings    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/en.lproj -- PhenomRBA/en.lproj/InfoPlist.strings36"4B7FCFAD-ADF9-4288-821E-21FBC84206E8-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist
-s431653288.549402
-e431653288.550852
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-xDerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist218"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plistf4bf8ca881bab941^ce348da881bab941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist0034b485ddffdf42^796"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"E99E2BDD-AAEE-4EB9-90CA-A3FA03F0E653-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCpResource PhenomRBA/TrapperSelections/Cowbell.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Cowbell.wav
-s431653293.201108
-e431653293.208873
-r1
-xCpResource
-xPhenomRBA/TrapperSelections/Cowbell.wav
-xDerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Cowbell.wav
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Cowbell.wav128"CpResource PhenomRBA/TrapperSelections/Cowbell.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Cowbell.wave78933ad81bab941^8e7935ad81bab941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Cowbell.wav0034b485ddffdf42^665"CpResource PhenomRBA/TrapperSelections/Cowbell.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Cowbell.wav    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/Cowbell.wav /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"9F4F03DA-9D42-42D3-B5B4-C7BE2F42CEBA-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCpResource PhenomRBA/TrapperSelections/GetAss.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/GetAss.wav
-s431653293.200971
-e431653293.202761
-r1
-xCpResource
-xPhenomRBA/TrapperSelections/GetAss.wav
-xDerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/GetAss.wav
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/GetAss.wav126"CpResource PhenomRBA/TrapperSelections/GetAss.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/GetAss.wavbf7f33ad81bab941^25ec33ad81bab941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/GetAss.wav0034b485ddffdf42^662"CpResource PhenomRBA/TrapperSelections/GetAss.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/GetAss.wav    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/GetAss.wav /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"0D665DD6-C981-4A94-8189-9CBFDD3AE19F-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCpResource PhenomRBA/TrapperSelections/Horn.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Horn.wav
-s431653293.200870
-e431653293.223546
-r1
-xCpResource
-xPhenomRBA/TrapperSelections/Horn.wav
-xDerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Horn.wav
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Horn.wav122"CpResource PhenomRBA/TrapperSelections/Horn.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Horn.wav537933ad81bab941^083b39ad81bab941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Horn.wav0034b485ddffdf42^656"CpResource PhenomRBA/TrapperSelections/Horn.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Horn.wav    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/Horn.wav /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"723CA34C-4378-4F39-81EE-1FF082EF0D1F-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCpResource PhenomRBA/TrapperSelections/MyMan.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/MyMan.wav
-s431653293.202986
-e431653293.204742
-r1
-xCpResource
-xPhenomRBA/TrapperSelections/MyMan.wav
-xDerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/MyMan.wav
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/MyMan.wav124"CpResource PhenomRBA/TrapperSelections/MyMan.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/MyMan.wav200c34ad81bab941^fe7b34ad81bab941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/MyMan.wav0034b485ddffdf42^659"CpResource PhenomRBA/TrapperSelections/MyMan.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/MyMan.wav    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/MyMan.wav /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"4ADFCB8E-8389-4978-BFB3-83E9F048CED6-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCpResource PhenomRBA/TrapperSelections/NiceJob.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/NiceJob.wav
-s431653293.202591
-e431653293.204802
-r1
-xCpResource
-xPhenomRBA/TrapperSelections/NiceJob.wav
-xDerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/NiceJob.wav
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/NiceJob.wav128"CpResource PhenomRBA/TrapperSelections/NiceJob.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/NiceJob.wavedf033ad81bab941^9d8234ad81bab941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/NiceJob.wav0034b485ddffdf42^665"CpResource PhenomRBA/TrapperSelections/NiceJob.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/NiceJob.wav    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/NiceJob.wav /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"D39FB0C2-4099-4CB6-9E26-AF45C678C556-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCpResource PhenomRBA/TrapperSelections/TurnDown.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/TurnDown.wav
-s431653293.201292
-e431653293.204042
-r1
-xCpResource
-xPhenomRBA/TrapperSelections/TurnDown.wav
-xDerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/TurnDown.wav
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/TurnDown.wav130"CpResource PhenomRBA/TrapperSelections/TurnDown.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/TurnDown.wavbf9a33ad81bab941^8e3c34ad81bab941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/TurnDown.wav0034b485ddffdf42^668"CpResource PhenomRBA/TrapperSelections/TurnDown.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/TurnDown.wav    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/TurnDown.wav /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"C9E603F9-3F79-478D-A3CB-6CB86375FC31-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CCpResource PhenomRBA/TrapperSelections/WaveRace.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/WaveRace.wav
-s431653293.201813
-e431653293.204735
-r1
-xCpResource
-xPhenomRBA/TrapperSelections/WaveRace.wav
-xDerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/WaveRace.wav
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/WaveRace.wav130"CpResource PhenomRBA/TrapperSelections/WaveRace.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/WaveRace.wav01be33ad81bab941^726d34ad81bab941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/WaveRace.wav0034b485ddffdf42^668"CpResource PhenomRBA/TrapperSelections/WaveRace.wav DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/WaveRace.wav    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/TrapperSelections/WaveRace.wav /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app36"81B8C403-9792-47C2-9518-6B2E54913BC3-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CGenerateDSYMFile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA
-s431653294.788233
-e431653294.983122
-r1
-xGenerateDSYMFile
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Generate /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM163"GenerateDSYMFile DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA52d4c9ae81bab941^42affbae81bab941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM0034b485ddffdf42^732"GenerateDSYMFile DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app.dSYM36"9E495A8B-01C6-43AE-8154-2D56FF2402F9-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CLd /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA normal arm64
-s431653292.196244
-e431653293.200042
-r1
-xLd
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA
-xnormal
-xarm64
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/PhenomRBA.LinkFileList
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AASampler.o
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/ViewController.o
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/AppDelegate.o
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/main.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA91"Ld DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA normal arm64594e32ac81bab941^933833ad81bab941^---0#0#1#--1523"Ld DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA normal arm64    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos -F/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos -filelist /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/PhenomRBA.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreMotion -framework QuartzCore -framework CoreAudio -framework AudioToolbox -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/Objects-normal/arm64/PhenomRBA_dependency_info.dat -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PhenomRBA36"6ACFDB47-9212-4E33-A3A2-97B1025702D4-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CProcessInfoPlistFile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Info.plist /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Info.plist
-s431653294.785911
-e431653294.787850
-r1
-xProcessInfoPlistFile
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Info.plist
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Process /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Info.plist128"ProcessInfoPlistFile DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Info.plist PhenomRBA/PhenomRBA-Info.plistee40c9ae81bab941^31b1c9ae81bab941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Info.plist0000000000000000^1102"ProcessInfoPlistFile DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Info.plist PhenomRBA/PhenomRBA-Info.plist    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Info.plist -genpkginfo /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/ResourceRules.plist -additionalcontentfile /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/assetcatalog_generated_info.plist -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/Info.plist36"02C985AD-A073-4CDD-94B3-CC8178107941-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CProcessPCH /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.pch PhenomRBA/PhenomRBA-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s431653288.551507
-e431653290.644001
-r1
-xProcessPCH
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.pch
-xPhenomRBA/PhenomRBA-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile PhenomRBA/PhenomRBA-Prefix.pch242"ProcessPCH DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.pch PhenomRBA/PhenomRBA-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler52498da881bab941^b5dda4aa81bab941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Prefix.pch0000000000000000^3725"ProcessPCH DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.pch PhenomRBA/PhenomRBA-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-generated-files.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-own-target-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-all-target-headers.hmap -iquote /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA-project-headers.hmap -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources/arm64 -I/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/DerivedSources -F/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.dia -MMD -MT dependencies -MF /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.d -c /Users/cjwalo/PrivateDevFolder/PhenomRBA/PhenomRBA/PhenomRBA-Prefix.pch -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PrecompiledHeaders/PhenomRBA-Prefix-gmuxuultouotszfkyuvzvmflpzfh/PhenomRBA-Prefix.pch.pch36"231EEA57-85CB-46A9-83C9-356B46516CE9-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CProcessPCH /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Index/PrecompiledHeaders/PhenomRBA-Prefix-ggspuceohpremkacjqndjacwqfpg_ast/PhenomRBA-Prefix.pch.pch PhenomRBA/PhenomRBA-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent
-s431653294.985729
-e431653294.987067
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection249"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent249"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent1f65fcae81bab941^36b1fcae81bab941^---0#0#1#-19%DVTDocumentLocation2@152"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent0034b485ddffdf42^818"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Intermediates/PhenomRBA.build/Debug-iphoneos/PhenomRBA.build/PhenomRBA.xcent36"CF9A1540-ECED-4522-B6A9-7DE84A938745-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CProcessProductPackaging /Users/cjwalo/Library/MobileDevice/Provisioning\ Profiles/daa05870-6110-481b-be80-38ce8f40b0be.mobileprovision /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision
-s431653294.983535
-e431653294.984714
-r1
-xProcessProductPackaging
-x/Users/cjwalo/Library/MobileDevice/Provisioning Profiles/daa05870-6110-481b-be80-38ce8f40b0be.mobileprovision
-x/Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection225"ProcessProductPackaging /Users/cjwalo/Library/MobileDevice/Provisioning\ Profiles/daa05870-6110-481b-be80-38ce8f40b0be.mobileprovision DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision225"ProcessProductPackaging /Users/cjwalo/Library/MobileDevice/Provisioning\ Profiles/daa05870-6110-481b-be80-38ce8f40b0be.mobileprovision DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision90d7fbae81bab941^ce16fcae81bab941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision0034b485ddffdf42^744"ProcessProductPackaging /Users/cjwalo/Library/MobileDevice/Provisioning\ Profiles/daa05870-6110-481b-be80-38ce8f40b0be.mobileprovision DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision    cd /Users/cjwalo/PrivateDevFolder/PhenomRBA    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/cjwalo/Library/MobileDevice/Provisioning\ Profiles/daa05870-6110-481b-be80-38ce8f40b0be.mobileprovision -o /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app/embedded.mobileprovision36"9A17E02D-3E87-4307-88D0-2DED784B2A7B-
-b1093BAE6-26A8-4FE0-91EE-E3F0715F5358
-
-CTouch /Users/cjwalo/PrivateDevFolder/PhenomRBA/DerivedData/PhenomRBA/Build/Products/Debug-iphoneos/PhenomRBA.app
-r0
-
