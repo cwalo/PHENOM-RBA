@@ -37,7 +37,4 @@ typedef struct MyAUGraphPlayer
 -(void)loadAUFilePlayers;
 -(void)stopAndClosePlayers;
 
-
-
-
 @end
