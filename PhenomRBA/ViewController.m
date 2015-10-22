@@ -52,7 +52,7 @@
         [self.buttonNames addObject:dict[kDisplayName]];
     }
     
-    //set play sample action for drumButtons
+    //set title and action for buttons
     for(UIView* view in self.view.subviews)
     {
         if([view isKindOfClass:[UIButton class]]) {
