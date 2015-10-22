@@ -31,20 +31,6 @@
 {
     [super viewDidLoad];
     
-    //set play sample action for drumButtons
-    for(UIView* view in self.view.subviews)
-    {
-        if([view isKindOfClass:[UIButton class]]) {
-            [(UIButton*)view addTarget:self action:@selector(playSample:) forControlEvents:UIControlEventTouchDown];
-            
-            [[(UIButton*)view layer] setCornerRadius:4.0];
-            
-            [[((UIButton*)view) titleLabel] setTextColor:[UIColor colorWithRed:0.325 green:0.325 blue:0.325 alpha:1.0]];
-            [[((UIButton*)view) titleLabel] setTextAlignment:NSTextAlignmentCenter];
-            [[((UIButton*)view) titleLabel] setFont:[UIFont fontWithName:@"Avenir Medium" size:(CGFloat)15.0]];
-        }
-    }
-    
     //init the filePlayer
     self.filePlayer = [AAAudioFileSampler new];
     
@@ -64,6 +50,27 @@
             self.buttonNames = [NSMutableArray new];
         
         [self.buttonNames addObject:dict[kDisplayName]];
+    }
+    
+    //set play sample action for drumButtons
+    for(UIView* view in self.view.subviews)
+    {
+        if([view isKindOfClass:[UIButton class]]) {
+            
+            UIButton *button = (UIButton*)view;
+            
+            [button addTarget:self action:@selector(playSample:) forControlEvents:UIControlEventTouchDown];
+            
+            [[button layer] setCornerRadius:4.0];
+            
+            [button setTitle:[(NSString*)self.buttonNames[button.tag] uppercaseString] forState:UIControlStateNormal];
+            
+            [[button titleLabel] setTextColor:[UIColor colorWithRed:0.325 green:0.325 blue:0.325 alpha:1.0]];
+            [[button titleLabel] setTextAlignment:NSTextAlignmentCenter];
+            [[button titleLabel] setNumberOfLines:0];
+            [[button titleLabel] setLineBreakMode:NSLineBreakByWordWrapping];
+            [[button titleLabel] setFont:[UIFont fontWithName:@"Avenir Medium" size:(CGFloat)12.0]];
+        }
     }
 }
 
@@ -114,14 +121,14 @@
 
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
-    // Play a sound whenever a shake motion ends
+    // Stop sound whenever a shake motion ends
     if (motion != UIEventSubtypeMotionShake) return;
         [self stopCowbell];
 }
 
 - (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
-    // Play a sound whenever a shake motion ends
+    // Stop sound whenever a shake motion ends
     if (motion != UIEventSubtypeMotionShake) return;
         [self stopCowbell];
 }
