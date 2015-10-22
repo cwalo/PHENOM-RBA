@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D74E126C1BD89C1300D56590 /* AAAudioFileSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E126B1BD89C1300D56590 /* AAAudioFileSampler.m */; settings = {ASSET_TAGS = (); }; };
-		D74E126F1BD8A3E200D56590 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74E126E1BD8A3E200D56590 /* CoreAudio.framework */; };
 		D74E12711BD8A6FD00D56590 /* FileSamples.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74E12701BD8A6FD00D56590 /* FileSamples.plist */; settings = {ASSET_TAGS = (); }; };
 		D74E12831BD8A74E00D56590 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12751BD8A74E00D56590 /* coin.wav */; settings = {ASSET_TAGS = (); }; };
 		D74E12841BD8A74E00D56590 /* cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12761BD8A74E00D56590 /* cowbell.wav */; settings = {ASSET_TAGS = (); }; };
@@ -56,7 +55,6 @@
 /* Begin PBXFileReference section */
 		D74E126A1BD89C1300D56590 /* AAAudioFileSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAudioFileSampler.h; sourceTree = "<group>"; };
 		D74E126B1BD89C1300D56590 /* AAAudioFileSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAudioFileSampler.m; sourceTree = "<group>"; };
-		D74E126E1BD8A3E200D56590 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		D74E12701BD8A6FD00D56590 /* FileSamples.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FileSamples.plist; sourceTree = "<group>"; };
 		D74E12751BD8A74E00D56590 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/coin.wav; sourceTree = "<group>"; };
 		D74E12761BD8A74E00D56590 /* cowbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cowbell.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/cowbell.wav; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74E126F1BD8A3E200D56590 /* CoreAudio.framework in Frameworks */,
 				D7F7CBD919A303FA00B5C390 /* CoreMotion.framework in Frameworks */,
 				D7F7CBD419A2C6D300B5C390 /* QuartzCore.framework in Frameworks */,
 				D756B08D19A0000A00138314 /* AudioToolbox.framework in Frameworks */,
@@ -188,7 +185,6 @@
 		D7F9D13A199FE697003CD7D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D74E126E1BD8A3E200D56590 /* CoreAudio.framework */,
 				D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */,
 				D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */,
 				D756B08C19A0000A00138314 /* AudioToolbox.framework */,
