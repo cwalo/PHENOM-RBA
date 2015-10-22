@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7028A3619F9E27200A9659A /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A2F19F9E27200A9659A /* Crash.wav */; };
-		D7028A3719F9E27200A9659A /* MudOrChocolate.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3019F9E27200A9659A /* MudOrChocolate.wav */; };
-		D7028A3819F9E27200A9659A /* SlowDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3119F9E27200A9659A /* SlowDown.wav */; };
-		D7028A3919F9E27200A9659A /* Coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3219F9E27200A9659A /* Coin.wav */; };
-		D7028A3A19F9E27200A9659A /* Schwing.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3319F9E27200A9659A /* Schwing.wav */; };
-		D7028A3B19F9E27200A9659A /* SadBone.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3419F9E27200A9659A /* SadBone.wav */; };
-		D7028A3C19F9E27200A9659A /* Fart.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7028A3519F9E27200A9659A /* Fart.wav */; };
-		D73A8DAA199FEDFC006D2839 /* Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D73A8D9A199FEDFC006D2839 /* Horn.wav */; };
+		D74E126C1BD89C1300D56590 /* AAAudioFileSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E126B1BD89C1300D56590 /* AAAudioFileSampler.m */; settings = {ASSET_TAGS = (); }; };
+		D74E126F1BD8A3E200D56590 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74E126E1BD8A3E200D56590 /* CoreAudio.framework */; };
+		D74E12711BD8A6FD00D56590 /* FileSamples.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74E12701BD8A6FD00D56590 /* FileSamples.plist */; settings = {ASSET_TAGS = (); }; };
+		D74E12831BD8A74E00D56590 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12751BD8A74E00D56590 /* coin.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E12841BD8A74E00D56590 /* cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12761BD8A74E00D56590 /* cowbell.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E12851BD8A74E00D56590 /* crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12771BD8A74E00D56590 /* crash.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E12861BD8A74E00D56590 /* fart.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12781BD8A74E00D56590 /* fart.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E12871BD8A74E00D56590 /* getAss.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12791BD8A74E00D56590 /* getAss.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E12881BD8A74E00D56590 /* horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E127A1BD8A74E00D56590 /* horn.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E12891BD8A74E00D56590 /* mudOrChocolate.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E127B1BD8A74E00D56590 /* mudOrChocolate.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E128A1BD8A74E00D56590 /* myMan.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E127C1BD8A74E00D56590 /* myMan.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E128B1BD8A74E00D56590 /* niceJob.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E127D1BD8A74E00D56590 /* niceJob.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E128C1BD8A74F00D56590 /* sadBone.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E127E1BD8A74E00D56590 /* sadBone.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E128D1BD8A74F00D56590 /* schwing.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E127F1BD8A74E00D56590 /* schwing.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E128E1BD8A74F00D56590 /* slowDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12801BD8A74E00D56590 /* slowDown.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E128F1BD8A74F00D56590 /* turnDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12811BD8A74E00D56590 /* turnDown.wav */; settings = {ASSET_TAGS = (); }; };
+		D74E12901BD8A74F00D56590 /* waveRace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12821BD8A74E00D56590 /* waveRace.wav */; settings = {ASSET_TAGS = (); }; };
 		D756B08D19A0000A00138314 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D756B08C19A0000A00138314 /* AudioToolbox.framework */; };
-		D756B08F19A0017C00138314 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D756B08E19A0017C00138314 /* CoreAudio.framework */; };
-		D756B09419A009AB00138314 /* TurnDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D756B09119A009AB00138314 /* TurnDown.wav */; };
-		D756B09519A009AB00138314 /* GetAss.wav in Resources */ = {isa = PBXBuildFile; fileRef = D756B09219A009AB00138314 /* GetAss.wav */; };
-		D756B09719A0118C00138314 /* WaveRace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D756B09619A0118C00138314 /* WaveRace.wav */; };
-		D776BE1419BA8112005A5ABF /* Cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = D776BE1319BA8112005A5ABF /* Cowbell.wav */; };
-		D7F7CBD019A2C3B100B5C390 /* MyMan.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7F7CBCF19A2C3B100B5C390 /* MyMan.wav */; };
-		D7F7CBD219A2C3BB00B5C390 /* NiceJob.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7F7CBD119A2C3BB00B5C390 /* NiceJob.wav */; };
 		D7F7CBD419A2C6D300B5C390 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */; };
 		D7F7CBD919A303FA00B5C390 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */; };
 		D7F9D13C199FE697003CD7D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9D13B199FE697003CD7D6 /* Foundation.framework */; };
@@ -52,22 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D7028A2F19F9E27200A9659A /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
-		D7028A3019F9E27200A9659A /* MudOrChocolate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MudOrChocolate.wav; sourceTree = "<group>"; };
-		D7028A3119F9E27200A9659A /* SlowDown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SlowDown.wav; sourceTree = "<group>"; };
-		D7028A3219F9E27200A9659A /* Coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Coin.wav; sourceTree = "<group>"; };
-		D7028A3319F9E27200A9659A /* Schwing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Schwing.wav; sourceTree = "<group>"; };
-		D7028A3419F9E27200A9659A /* SadBone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SadBone.wav; sourceTree = "<group>"; };
-		D7028A3519F9E27200A9659A /* Fart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fart.wav; sourceTree = "<group>"; };
-		D73A8D9A199FEDFC006D2839 /* Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Horn.wav; sourceTree = "<group>"; };
+		D74E126A1BD89C1300D56590 /* AAAudioFileSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAudioFileSampler.h; sourceTree = "<group>"; };
+		D74E126B1BD89C1300D56590 /* AAAudioFileSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAudioFileSampler.m; sourceTree = "<group>"; };
+		D74E126E1BD8A3E200D56590 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D74E12701BD8A6FD00D56590 /* FileSamples.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FileSamples.plist; sourceTree = "<group>"; };
+		D74E12751BD8A74E00D56590 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/coin.wav; sourceTree = "<group>"; };
+		D74E12761BD8A74E00D56590 /* cowbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cowbell.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/cowbell.wav; sourceTree = "<group>"; };
+		D74E12771BD8A74E00D56590 /* crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crash.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/crash.wav; sourceTree = "<group>"; };
+		D74E12781BD8A74E00D56590 /* fart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fart.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/fart.wav; sourceTree = "<group>"; };
+		D74E12791BD8A74E00D56590 /* getAss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = getAss.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/getAss.wav; sourceTree = "<group>"; };
+		D74E127A1BD8A74E00D56590 /* horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = horn.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/horn.wav; sourceTree = "<group>"; };
+		D74E127B1BD8A74E00D56590 /* mudOrChocolate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = mudOrChocolate.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/mudOrChocolate.wav; sourceTree = "<group>"; };
+		D74E127C1BD8A74E00D56590 /* myMan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = myMan.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/myMan.wav; sourceTree = "<group>"; };
+		D74E127D1BD8A74E00D56590 /* niceJob.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = niceJob.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/niceJob.wav; sourceTree = "<group>"; };
+		D74E127E1BD8A74E00D56590 /* sadBone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sadBone.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/sadBone.wav; sourceTree = "<group>"; };
+		D74E127F1BD8A74E00D56590 /* schwing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = schwing.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/schwing.wav; sourceTree = "<group>"; };
+		D74E12801BD8A74E00D56590 /* slowDown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = slowDown.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/slowDown.wav; sourceTree = "<group>"; };
+		D74E12811BD8A74E00D56590 /* turnDown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = turnDown.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/turnDown.wav; sourceTree = "<group>"; };
+		D74E12821BD8A74E00D56590 /* waveRace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waveRace.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/waveRace.wav; sourceTree = "<group>"; };
 		D756B08C19A0000A00138314 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		D756B08E19A0017C00138314 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		D756B09119A009AB00138314 /* TurnDown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TurnDown.wav; sourceTree = "<group>"; };
-		D756B09219A009AB00138314 /* GetAss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GetAss.wav; sourceTree = "<group>"; };
-		D756B09619A0118C00138314 /* WaveRace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WaveRace.wav; sourceTree = "<group>"; };
-		D776BE1319BA8112005A5ABF /* Cowbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cowbell.wav; sourceTree = "<group>"; };
-		D7F7CBCF19A2C3B100B5C390 /* MyMan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MyMan.wav; sourceTree = "<group>"; };
-		D7F7CBD119A2C3BB00B5C390 /* NiceJob.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NiceJob.wav; sourceTree = "<group>"; };
 		D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		D7F9D138199FE697003CD7D6 /* PHNM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHNM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,9 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74E126F1BD8A3E200D56590 /* CoreAudio.framework in Frameworks */,
 				D7F7CBD919A303FA00B5C390 /* CoreMotion.framework in Frameworks */,
 				D7F7CBD419A2C6D300B5C390 /* QuartzCore.framework in Frameworks */,
-				D756B08F19A0017C00138314 /* CoreAudio.framework in Frameworks */,
 				D756B08D19A0000A00138314 /* AudioToolbox.framework in Frameworks */,
 				D7F9D13E199FE697003CD7D6 /* CoreGraphics.framework in Frameworks */,
 				D7F9D140199FE697003CD7D6 /* UIKit.framework in Frameworks */,
@@ -119,26 +124,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D73A8D92199FEDFC006D2839 /* Samples */ = {
+		D74E12681BD89BC000D56590 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D7028A2F19F9E27200A9659A /* Crash.wav */,
-				D7028A3019F9E27200A9659A /* MudOrChocolate.wav */,
-				D7028A3119F9E27200A9659A /* SlowDown.wav */,
-				D7028A3219F9E27200A9659A /* Coin.wav */,
-				D7028A3319F9E27200A9659A /* Schwing.wav */,
-				D7028A3419F9E27200A9659A /* SadBone.wav */,
-				D7028A3519F9E27200A9659A /* Fart.wav */,
-				D776BE1319BA8112005A5ABF /* Cowbell.wav */,
-				D7F7CBD119A2C3BB00B5C390 /* NiceJob.wav */,
-				D7F7CBCF19A2C3B100B5C390 /* MyMan.wav */,
-				D756B09619A0118C00138314 /* WaveRace.wav */,
-				D756B09119A009AB00138314 /* TurnDown.wav */,
-				D756B09219A009AB00138314 /* GetAss.wav */,
-				D73A8D9A199FEDFC006D2839 /* Horn.wav */,
+				D74E12741BD8A74400D56590 /* Samples */,
+				D74E12701BD8A6FD00D56590 /* FileSamples.plist */,
+				D7F9D14D199FE697003CD7D6 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D74E12691BD89BE200D56590 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D74E126A1BD89C1300D56590 /* AAAudioFileSampler.h */,
+				D74E126B1BD89C1300D56590 /* AAAudioFileSampler.m */,
+				D7F9D150199FE697003CD7D6 /* ViewController.h */,
+				D7F9D151199FE697003CD7D6 /* ViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D74E12741BD8A74400D56590 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				D74E12751BD8A74E00D56590 /* coin.wav */,
+				D74E12761BD8A74E00D56590 /* cowbell.wav */,
+				D74E12771BD8A74E00D56590 /* crash.wav */,
+				D74E12781BD8A74E00D56590 /* fart.wav */,
+				D74E12791BD8A74E00D56590 /* getAss.wav */,
+				D74E127A1BD8A74E00D56590 /* horn.wav */,
+				D74E127B1BD8A74E00D56590 /* mudOrChocolate.wav */,
+				D74E127C1BD8A74E00D56590 /* myMan.wav */,
+				D74E127D1BD8A74E00D56590 /* niceJob.wav */,
+				D74E127E1BD8A74E00D56590 /* sadBone.wav */,
+				D74E127F1BD8A74E00D56590 /* schwing.wav */,
+				D74E12801BD8A74E00D56590 /* slowDown.wav */,
+				D74E12811BD8A74E00D56590 /* turnDown.wav */,
+				D74E12821BD8A74E00D56590 /* waveRace.wav */,
 			);
 			name = Samples;
-			path = TrapperSelections;
 			sourceTree = "<group>";
 		};
 		D7F9D12F199FE697003CD7D6 = {
@@ -163,9 +188,9 @@
 		D7F9D13A199FE697003CD7D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D74E126E1BD8A3E200D56590 /* CoreAudio.framework */,
 				D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */,
 				D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */,
-				D756B08E19A0017C00138314 /* CoreAudio.framework */,
 				D756B08C19A0000A00138314 /* AudioToolbox.framework */,
 				D7F9D13B199FE697003CD7D6 /* Foundation.framework */,
 				D7F9D13D199FE697003CD7D6 /* CoreGraphics.framework */,
@@ -180,9 +205,8 @@
 			children = (
 				D7F9D14A199FE697003CD7D6 /* AppDelegate.h */,
 				D7F9D14B199FE697003CD7D6 /* AppDelegate.m */,
-				D7F9D14D199FE697003CD7D6 /* Main.storyboard */,
-				D7F9D150199FE697003CD7D6 /* ViewController.h */,
-				D7F9D151199FE697003CD7D6 /* ViewController.m */,
+				D74E12691BD89BE200D56590 /* Classes */,
+				D74E12681BD89BC000D56590 /* Resources */,
 				D7F9D153199FE697003CD7D6 /* Images.xcassets */,
 				D7F9D142199FE697003CD7D6 /* Supporting Files */,
 			);
@@ -192,7 +216,6 @@
 		D7F9D142199FE697003CD7D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D73A8D92199FEDFC006D2839 /* Samples */,
 				D7F9D143199FE697003CD7D6 /* PhenomRBA-Info.plist */,
 				D7F9D144199FE697003CD7D6 /* InfoPlist.strings */,
 				D7F9D147199FE697003CD7D6 /* main.m */,
@@ -298,23 +321,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73A8DAA199FEDFC006D2839 /* Horn.wav in Resources */,
-				D7028A3A19F9E27200A9659A /* Schwing.wav in Resources */,
-				D756B09519A009AB00138314 /* GetAss.wav in Resources */,
-				D7028A3B19F9E27200A9659A /* SadBone.wav in Resources */,
+				D74E12871BD8A74E00D56590 /* getAss.wav in Resources */,
+				D74E128D1BD8A74F00D56590 /* schwing.wav in Resources */,
+				D74E12881BD8A74E00D56590 /* horn.wav in Resources */,
+				D74E12711BD8A6FD00D56590 /* FileSamples.plist in Resources */,
+				D74E128A1BD8A74E00D56590 /* myMan.wav in Resources */,
+				D74E128E1BD8A74F00D56590 /* slowDown.wav in Resources */,
+				D74E12861BD8A74E00D56590 /* fart.wav in Resources */,
+				D74E128C1BD8A74F00D56590 /* sadBone.wav in Resources */,
+				D74E12901BD8A74F00D56590 /* waveRace.wav in Resources */,
+				D74E12831BD8A74E00D56590 /* coin.wav in Resources */,
 				D7F9D154199FE697003CD7D6 /* Images.xcassets in Resources */,
-				D7028A3619F9E27200A9659A /* Crash.wav in Resources */,
-				D776BE1419BA8112005A5ABF /* Cowbell.wav in Resources */,
-				D7028A3919F9E27200A9659A /* Coin.wav in Resources */,
-				D7028A3819F9E27200A9659A /* SlowDown.wav in Resources */,
-				D756B09419A009AB00138314 /* TurnDown.wav in Resources */,
 				D7F9D146199FE697003CD7D6 /* InfoPlist.strings in Resources */,
-				D7028A3719F9E27200A9659A /* MudOrChocolate.wav in Resources */,
-				D7028A3C19F9E27200A9659A /* Fart.wav in Resources */,
-				D756B09719A0118C00138314 /* WaveRace.wav in Resources */,
+				D74E128B1BD8A74E00D56590 /* niceJob.wav in Resources */,
 				D7F9D14F199FE697003CD7D6 /* Main.storyboard in Resources */,
-				D7F7CBD219A2C3BB00B5C390 /* NiceJob.wav in Resources */,
-				D7F7CBD019A2C3B100B5C390 /* MyMan.wav in Resources */,
+				D74E12841BD8A74E00D56590 /* cowbell.wav in Resources */,
+				D74E12891BD8A74E00D56590 /* mudOrChocolate.wav in Resources */,
+				D74E128F1BD8A74F00D56590 /* turnDown.wav in Resources */,
+				D74E12851BD8A74E00D56590 /* crash.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +360,7 @@
 				D7F9D152199FE697003CD7D6 /* ViewController.m in Sources */,
 				D7F9D14C199FE697003CD7D6 /* AppDelegate.m in Sources */,
 				D7F9D148199FE697003CD7D6 /* main.m in Sources */,
+				D74E126C1BD89C1300D56590 /* AAAudioFileSampler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

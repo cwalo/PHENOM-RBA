@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allFiles</key>
+	<array>
+        <dict>
+            <key>fileName</key>
+            <string>horn</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>horn</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>turnDown</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>turn down</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>getAss</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>get in dat ass</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>myMan</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>my man</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>niceJob</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>nice job</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>schwing</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>schwing</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>fart</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>good ol&apos; fart</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>mudOrChocolate</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>mud or chocolate</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>sadBone</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>sad bone</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>slowDown</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>slow down</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>crash</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>crash</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>waveRace</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>let&apos;s race</string>
+        </dict>
+        <dict>
+            <key>fileName</key>
+            <string>cowbell</string>
+            <key>fileType</key>
+            <string>wav</string>
+            <key>displayName</key>
+            <string>cowbell</string>
+        </dict>
+	</array>
+</dict>
+</plist>
