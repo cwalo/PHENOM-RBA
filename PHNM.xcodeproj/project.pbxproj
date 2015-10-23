@@ -36,22 +36,7 @@
 		D7F9D14F199FE697003CD7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F9D14D199FE697003CD7D6 /* Main.storyboard */; };
 		D7F9D152199FE697003CD7D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F9D151199FE697003CD7D6 /* ViewController.m */; };
 		D7F9D154199FE697003CD7D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F9D153199FE697003CD7D6 /* Images.xcassets */; };
-		D7F9D15B199FE698003CD7D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9D15A199FE697003CD7D6 /* XCTest.framework */; };
-		D7F9D15C199FE698003CD7D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9D13B199FE697003CD7D6 /* Foundation.framework */; };
-		D7F9D15D199FE698003CD7D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9D13F199FE697003CD7D6 /* UIKit.framework */; };
-		D7F9D165199FE698003CD7D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7F9D163199FE698003CD7D6 /* InfoPlist.strings */; };
-		D7F9D167199FE698003CD7D6 /* PhenomRBATests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F9D166199FE698003CD7D6 /* PhenomRBATests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D7F9D15E199FE698003CD7D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7F9D130199FE697003CD7D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7F9D137199FE697003CD7D6;
-			remoteInfo = PhenomRBA;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D74E126A1BD89C1300D56590 /* AAAudioFileSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAudioFileSampler.h; sourceTree = "<group>"; };
@@ -73,13 +58,13 @@
 		D74E12821BD8A74E00D56590 /* waveRace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waveRace.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/waveRace.wav; sourceTree = "<group>"; };
 		D756B08C19A0000A00138314 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D7E3E8FE1BD9E3E8007356EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E3E9021BD9F42A007356EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Info.plist; sourceTree = "<group>"; };
 		D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		D7F9D138199FE697003CD7D6 /* PHNM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHNM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9D13B199FE697003CD7D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7F9D13D199FE697003CD7D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D7F9D13F199FE697003CD7D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D7F9D143199FE697003CD7D6 /* PhenomRBA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhenomRBA-Info.plist"; sourceTree = "<group>"; };
 		D7F9D145199FE697003CD7D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7F9D147199FE697003CD7D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7F9D149199FE697003CD7D6 /* PhenomRBA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhenomRBA-Prefix.pch"; sourceTree = "<group>"; };
@@ -89,11 +74,7 @@
 		D7F9D150199FE697003CD7D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D7F9D151199FE697003CD7D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7F9D153199FE697003CD7D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D7F9D159199FE697003CD7D6 /* PhenomRBATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhenomRBATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9D15A199FE697003CD7D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D7F9D162199FE698003CD7D6 /* PhenomRBATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhenomRBATests-Info.plist"; sourceTree = "<group>"; };
-		D7F9D164199FE698003CD7D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D7F9D166199FE698003CD7D6 /* PhenomRBATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhenomRBATests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,16 +88,6 @@
 				D7F9D13E199FE697003CD7D6 /* CoreGraphics.framework in Frameworks */,
 				D7F9D140199FE697003CD7D6 /* UIKit.framework in Frameworks */,
 				D7F9D13C199FE697003CD7D6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7F9D156199FE697003CD7D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F9D15B199FE698003CD7D6 /* XCTest.framework in Frameworks */,
-				D7F9D15D199FE698003CD7D6 /* UIKit.framework in Frameworks */,
-				D7F9D15C199FE698003CD7D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				D7F9D141199FE697003CD7D6 /* PhenomRBA */,
-				D7F9D160199FE698003CD7D6 /* PhenomRBATests */,
 				D7F9D13A199FE697003CD7D6 /* Frameworks */,
 				D7F9D139199FE697003CD7D6 /* Products */,
 			);
@@ -180,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				D7F9D138199FE697003CD7D6 /* PHNM.app */,
-				D7F9D159199FE697003CD7D6 /* PhenomRBATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,28 +184,10 @@
 		D7F9D142199FE697003CD7D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9D143199FE697003CD7D6 /* PhenomRBA-Info.plist */,
+				D7E3E9021BD9F42A007356EF /* Info.plist */,
 				D7F9D144199FE697003CD7D6 /* InfoPlist.strings */,
 				D7F9D147199FE697003CD7D6 /* main.m */,
 				D7F9D149199FE697003CD7D6 /* PhenomRBA-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D7F9D160199FE698003CD7D6 /* PhenomRBATests */ = {
-			isa = PBXGroup;
-			children = (
-				D7F9D166199FE698003CD7D6 /* PhenomRBATests.m */,
-				D7F9D161199FE698003CD7D6 /* Supporting Files */,
-			);
-			path = PhenomRBATests;
-			sourceTree = "<group>";
-		};
-		D7F9D161199FE698003CD7D6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D7F9D162199FE698003CD7D6 /* PhenomRBATests-Info.plist */,
-				D7F9D163199FE698003CD7D6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -261,24 +212,6 @@
 			productReference = D7F9D138199FE697003CD7D6 /* PHNM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D7F9D158199FE697003CD7D6 /* PhenomRBATests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7F9D16D199FE698003CD7D6 /* Build configuration list for PBXNativeTarget "PhenomRBATests" */;
-			buildPhases = (
-				D7F9D155199FE697003CD7D6 /* Sources */,
-				D7F9D156199FE697003CD7D6 /* Frameworks */,
-				D7F9D157199FE697003CD7D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7F9D15F199FE698003CD7D6 /* PBXTargetDependency */,
-			);
-			name = PhenomRBATests;
-			productName = PhenomRBATests;
-			productReference = D7F9D159199FE697003CD7D6 /* PhenomRBATests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,9 +223,6 @@
 				TargetAttributes = {
 					D7F9D137199FE697003CD7D6 = {
 						DevelopmentTeam = TGW6PA8S8E;
-					};
-					D7F9D158199FE697003CD7D6 = {
-						TestTargetID = D7F9D137199FE697003CD7D6;
 					};
 				};
 			};
@@ -310,7 +240,6 @@
 			projectRoot = "";
 			targets = (
 				D7F9D137199FE697003CD7D6 /* PhenomRBA */,
-				D7F9D158199FE697003CD7D6 /* PhenomRBATests */,
 			);
 		};
 /* End PBXProject section */
@@ -342,14 +271,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F9D157199FE697003CD7D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F9D165199FE698003CD7D6 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -364,23 +285,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F9D155199FE697003CD7D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F9D167199FE698003CD7D6 /* PhenomRBATests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D7F9D15F199FE698003CD7D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D7F9D137199FE697003CD7D6 /* PhenomRBA */;
-			targetProxy = D7F9D15E199FE698003CD7D6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D7F9D144199FE697003CD7D6 /* InfoPlist.strings */ = {
@@ -397,14 +302,6 @@
 				D7F9D14E199FE697003CD7D6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D7F9D163199FE698003CD7D6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7F9D164199FE698003CD7D6 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -443,7 +340,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "f516f49e-34e2-4ae1-bdc6-85462e7a37b5";
 				SDKROOT = iphoneos;
@@ -477,7 +375,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE = "f516f49e-34e2-4ae1-bdc6-85462e7a37b5";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -488,12 +387,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhenomRBA/PhenomRBA-Prefix.pch";
-				INFOPLIST_FILE = "PhenomRBA/PhenomRBA-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../AudioArmada/PhenomRBA/PhenomRBA/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coreywalo.PHNM;
 				PRODUCT_NAME = PHNM;
 				PROVISIONING_PROFILE = "";
@@ -505,57 +403,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhenomRBA/PhenomRBA-Prefix.pch";
-				INFOPLIST_FILE = "PhenomRBA/PhenomRBA-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../AudioArmada/PhenomRBA/PhenomRBA/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coreywalo.PHNM;
 				PRODUCT_NAME = PHNM;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		D7F9D16E199FE698003CD7D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhenomRBA.app/PhenomRBA";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhenomRBA/PhenomRBA-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PhenomRBATests/PhenomRBATests-Info.plist";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = PhenomRBATests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D7F9D16F199FE698003CD7D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhenomRBA.app/PhenomRBA";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhenomRBA/PhenomRBA-Prefix.pch";
-				INFOPLIST_FILE = "PhenomRBATests/PhenomRBATests-Info.plist";
-				PRODUCT_NAME = PhenomRBATests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -576,15 +432,6 @@
 			buildConfigurations = (
 				D7F9D16B199FE698003CD7D6 /* Debug */,
 				D7F9D16C199FE698003CD7D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7F9D16D199FE698003CD7D6 /* Build configuration list for PBXNativeTarget "PhenomRBATests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7F9D16E199FE698003CD7D6 /* Debug */,
-				D7F9D16F199FE698003CD7D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
