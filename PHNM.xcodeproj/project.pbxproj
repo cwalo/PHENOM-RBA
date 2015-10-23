@@ -24,6 +24,7 @@
 		D74E128F1BD8A74F00D56590 /* turnDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12811BD8A74E00D56590 /* turnDown.wav */; settings = {ASSET_TAGS = (); }; };
 		D74E12901BD8A74F00D56590 /* waveRace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D74E12821BD8A74E00D56590 /* waveRace.wav */; settings = {ASSET_TAGS = (); }; };
 		D756B08D19A0000A00138314 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D756B08C19A0000A00138314 /* AudioToolbox.framework */; };
+		D7E3E8FF1BD9E3E8007356EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E3E8FE1BD9E3E8007356EF /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		D7F7CBD419A2C6D300B5C390 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */; };
 		D7F7CBD919A303FA00B5C390 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */; };
 		D7F9D13C199FE697003CD7D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9D13B199FE697003CD7D6 /* Foundation.framework */; };
@@ -71,6 +72,7 @@
 		D74E12811BD8A74E00D56590 /* turnDown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = turnDown.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/turnDown.wav; sourceTree = "<group>"; };
 		D74E12821BD8A74E00D56590 /* waveRace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waveRace.wav; path = ../../../AudioArmada/PhenomRBA/PhenomRBA/Samples/waveRace.wav; sourceTree = "<group>"; };
 		D756B08C19A0000A00138314 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D7E3E8FE1BD9E3E8007356EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F7CBD319A2C6D300B5C390 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7F7CBD819A303FA00B5C390 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		D7F9D138199FE697003CD7D6 /* PHNM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHNM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 				D74E12741BD8A74400D56590 /* Samples */,
 				D74E12701BD8A6FD00D56590 /* FileSamples.plist */,
 				D7F9D14D199FE697003CD7D6 /* Main.storyboard */,
+				D7E3E8FE1BD9E3E8007356EF /* LaunchScreen.storyboard */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				D74E12711BD8A6FD00D56590 /* FileSamples.plist in Resources */,
 				D74E128A1BD8A74E00D56590 /* myMan.wav in Resources */,
 				D74E128E1BD8A74F00D56590 /* slowDown.wav in Resources */,
+				D7E3E8FF1BD9E3E8007356EF /* LaunchScreen.storyboard in Resources */,
 				D74E12861BD8A74E00D56590 /* fart.wav in Resources */,
 				D74E128C1BD8A74F00D56590 /* sadBone.wav in Resources */,
 				D74E12901BD8A74F00D56590 /* waveRace.wav in Resources */,

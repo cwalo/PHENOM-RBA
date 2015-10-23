@@ -52,6 +52,8 @@
         [self.buttonNames addObject:dict[kDisplayName]];
     }
     
+    [self.filePlayer loadAudioURLS:self.sampleURLs];
+    
     //set title and action for buttons
     for(UIView* view in self.view.subviews)
     {
@@ -61,7 +63,7 @@
             
             [button addTarget:self action:@selector(playSample:) forControlEvents:UIControlEventTouchDown];
             
-            [[button layer] setCornerRadius:4.0];
+            [[button layer] setCornerRadius:2.0];
             
             [button setTitle:[(NSString*)self.buttonNames[button.tag] uppercaseString] forState:UIControlStateNormal];
             
@@ -78,8 +80,6 @@
 {
     [super viewDidAppear:animated];
     [self becomeFirstResponder];
-    
-    [self.filePlayer loadAudioURLS:self.sampleURLs];
     [self.filePlayer loadAUFilePlayers];
 }
 
