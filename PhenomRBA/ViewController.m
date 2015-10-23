@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AAAudioFileSampler.h"
+#import "CWAudioFileSampler.h"
 #import <QuartzCore/QuartzCore.h>
 #import <CoreMotion/CoreMotion.h>
 
@@ -19,7 +19,7 @@
 
 @interface ViewController()
 
-@property(strong, nonatomic) AAAudioFileSampler *filePlayer;
+@property(strong, nonatomic) CWAudioFileSampler *filePlayer;
 @property(strong, nonatomic) NSMutableArray *sampleURLs;
 @property(strong, nonatomic) NSMutableArray *buttonNames;
 
@@ -32,7 +32,7 @@
     [super viewDidLoad];
     
     //init the filePlayer
-    self.filePlayer = [AAAudioFileSampler new];
+    self.filePlayer = [CWAudioFileSampler new];
     
     //gather file paths and button names
     NSDictionary *fileSampleDictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"FileSamples" ofType:@"plist"]];

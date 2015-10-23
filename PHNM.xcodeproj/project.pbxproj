@@ -21,7 +21,7 @@
 		D70398DF1BDAE17B00E034E3 /* slowDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D70398D11BDAE17B00E034E3 /* slowDown.wav */; settings = {ASSET_TAGS = (); }; };
 		D70398E01BDAE17B00E034E3 /* turnDown.wav in Resources */ = {isa = PBXBuildFile; fileRef = D70398D21BDAE17B00E034E3 /* turnDown.wav */; settings = {ASSET_TAGS = (); }; };
 		D70398E11BDAE17B00E034E3 /* waveRace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D70398D31BDAE17B00E034E3 /* waveRace.wav */; settings = {ASSET_TAGS = (); }; };
-		D74E126C1BD89C1300D56590 /* AAAudioFileSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E126B1BD89C1300D56590 /* AAAudioFileSampler.m */; settings = {ASSET_TAGS = (); }; };
+		D70398EB1BDAEC0900E034E3 /* CWAudioFileSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = D70398EA1BDAEC0900E034E3 /* CWAudioFileSampler.m */; settings = {ASSET_TAGS = (); }; };
 		D74E12711BD8A6FD00D56590 /* FileSamples.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74E12701BD8A6FD00D56590 /* FileSamples.plist */; settings = {ASSET_TAGS = (); }; };
 		D756B08D19A0000A00138314 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D756B08C19A0000A00138314 /* AudioToolbox.framework */; };
 		D7E3E8FF1BD9E3E8007356EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E3E8FE1BD9E3E8007356EF /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
@@ -54,8 +54,8 @@
 		D70398D21BDAE17B00E034E3 /* turnDown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = turnDown.wav; path = Samples/turnDown.wav; sourceTree = "<group>"; };
 		D70398D31BDAE17B00E034E3 /* waveRace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waveRace.wav; path = Samples/waveRace.wav; sourceTree = "<group>"; };
 		D70398E71BDAE86000E034E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D74E126A1BD89C1300D56590 /* AAAudioFileSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAudioFileSampler.h; sourceTree = "<group>"; };
-		D74E126B1BD89C1300D56590 /* AAAudioFileSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAudioFileSampler.m; sourceTree = "<group>"; };
+		D70398E91BDAEC0900E034E3 /* CWAudioFileSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAudioFileSampler.h; sourceTree = "<group>"; };
+		D70398EA1BDAEC0900E034E3 /* CWAudioFileSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAudioFileSampler.m; sourceTree = "<group>"; };
 		D74E12701BD8A6FD00D56590 /* FileSamples.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FileSamples.plist; sourceTree = "<group>"; };
 		D756B08C19A0000A00138314 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D7E3E8FE1BD9E3E8007356EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		D74E12691BD89BE200D56590 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D74E126A1BD89C1300D56590 /* AAAudioFileSampler.h */,
-				D74E126B1BD89C1300D56590 /* AAAudioFileSampler.m */,
+				D70398E91BDAEC0900E034E3 /* CWAudioFileSampler.h */,
+				D70398EA1BDAEC0900E034E3 /* CWAudioFileSampler.m */,
 				D7F9D150199FE697003CD7D6 /* ViewController.h */,
 				D7F9D151199FE697003CD7D6 /* ViewController.m */,
 			);
@@ -281,7 +281,7 @@
 				D7F9D152199FE697003CD7D6 /* ViewController.m in Sources */,
 				D7F9D14C199FE697003CD7D6 /* AppDelegate.m in Sources */,
 				D7F9D148199FE697003CD7D6 /* main.m in Sources */,
-				D74E126C1BD89C1300D56590 /* AAAudioFileSampler.m in Sources */,
+				D70398EB1BDAEC0900E034E3 /* CWAudioFileSampler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
